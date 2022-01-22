@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  font: 16px 'Noto Sans', sans-serif;;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1120px;
+  margin: auto;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.fluid-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: baseline;
+}
+
+.col-6 {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.col-4 {
+  box-sizing: border-box;
+  max-width: 33.333%;
+}
+
+/* Header */
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo h1 {
+  font-weight: lighter;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-bar a {
+  margin-left: 20px;
+}
+
+a.nav-button {
+  margin-left: 40px;
+  display: block;
+  width: 140px;
+  height: 2.5em;
+  background-color: #0B4141;
+  border-radius: 1.25em;
+  color: #FFCCBC;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+/* Main hero */
+.main-hero {
+  padding-top: 80px;
+  background-image: url("confettis.svg");
+}
+
+.main-hero h1 {
+  margin: auto;
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-hero span:first-child {
+  display: block;
+  color: #FFCCBC;
+  position: relative;
+  z-index: -2;
+}
+
+.main-hero span:last-child {
+  display: block;
+  color: #D8D8D8;
+  position: relative;
+  z-index: 2;
+}
+
+.main-hero .img {
+  text-align: center;
+  margin-top: -250px;
+}
+
+.main-hero img {
+  position: relative;
+  z-index: -1;
+}
+
+.intro {
+  margin-top: -100px;
+  padding: 100px 0;
+  background-image: url('Cornelia Confettis-intro.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.intro h2 {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.intro p {
+  font-size: 20px;
+}
+
+/* Choose Section */
+.choose {
+  background-color: #0B4141;
+  color: #FFCCBC;
+}
+
+.choose h2 {
+  margin-top: 100px;
+  font-size: 56px;
+}
+
+.choose p {
+  margin-right: 10%;
+  font-size: 20px;
+}
+
+.choose a {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block;
+  width: 300px;
+  height: 2.5em;
+  border: 1px solid #FFCCBC;
+  border-radius: 1.25em;
+  font-size: 18px;
+  line-height: 2.5em;
+  color: #FFCCBC;
+  text-decoration: none;
+  text-align: center;
+}
+
+.choose .img {
+  align-self: flex-end;
+  margin-bottom: -5px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+/* Description Section */
+.description .upper h2 {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 56px;
+  color: #FFCCBC;
+}
+
+.description p {
+  width: 80%;
+  font-size: 20px;
+  color: #0B4141;
+}
+
+.description h5 {
+  color: #0B4141;
+}
+
+.description .lower {
+  margin-top: 100px;
+}
+
+.description .lower h2 {
+  margin-bottom: 0;
+  font-size: 56px;
+  color: #0B4141;
+}
+
+/* Magic Section */
+.magic {
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+.magic h2 {
+  margin: auto;
+  margin-top: 100px;
+  font-size: 64px;
+  font-weight: normal;
+  color: #FFCCBC;
+}
+
+.magic p {
+  margin: auto;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #0B4141;
+}
+
+.magic .img {
+  height: 250px;
+  margin-top: 20px;
+  background-image: linear-gradient(rgba(255, 204, 188, 0), rgba(255, 204, 188, 0.4)),
+                    url('Group 8.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Talk Section */
+.talk {
+  background-image: linear-gradient(rgba(243, 188, 175, 0.8), rgba(243, 188, 175, 0)),
+                    url('Cornelia Confettis-talk.png');
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.talk h2 {
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 60px;
+  color: white;
+}
+
+.talk .card {
+  margin: 20px 10px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-top: .5px solid #707070;
+  border-bottom: 1px solid #707070;
+  border-radius: 10px;
+  padding: 20px;
+  color: #0B4141;
+}
+
+.talk .personna {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.talk .comment {
+  margin-top: 0;
+  font-size: 13px;
+}
+
+.personna h4 {
+  margin: 0;
+}
+
+.personna p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Detail Section*/
+.lesser {
+  background-image: url('confettis.png');
+  color: #0B4141;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.lesser h2 {
+  margin-top: 80px;
+  margin-bottom: 0;
+  font-size: 60px;
+}
+
+.lesser p {
+  font-size: 20px;
+}
+
+.lesser a {
+  margin-top: 40px;
+  display: block;
+  width: 250px;
+  height: 2.5em;
+  border: 1px solid #FFCCBC;
+  border-radius: 1.25em;
+  font-size: 18px;
+  color: #FFCCBC;
+  text-align: center;
+  line-height: 2.5em;
+  text-decoration: none;
+}
+
+/* Exist Section */
+.exist {
+  background-image: url('exist.png');
+  color: #0B4141;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.exist .img img {
+  display: block;
+  margin-top: 65px;
+}
+
+.exist h2 {
+  margin: auto;
+  margin-top: 40px;
+  font-size: 60px;
+  text-align: left;
+}
+
+.exist p {
+  font-size: 20px;
+  text-align: left;
+  width: 450px;
+}
+
+.exist a {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: block;
+  width: 250px;
+  height: 2.5em;
+  border: 1px solid #FFCCBC;
+  border-radius: 1.25em;
+  font-size: 18px;
+  color: #FFCCBC;
+  text-align: center;
+  line-height: 2.5em;
+  text-decoration: none;
+}
+
+/* Footer */
+.started {
+  background-color: #0B4141;
+  color: #FFCCBC;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.started h2 {
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 68px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.started a {
+  display: block;
+  width: 220px;
+  height: 2.5em;
+  border: 1px solid #FFCCBC;
+  border-radius: 1.25em;
+  font-size: 16px;
+  color: #FFCCBC;
+  text-align: center;
+  line-height: 2.5em;
+  text-decoration: none;
+}
